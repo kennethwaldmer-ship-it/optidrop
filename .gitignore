@@ -1,0 +1,8 @@
+# Third-party binaries ship in the release zip, not in git history
+payload/*.dll
+payload/OptiScaler/
+# Never commit the NVIDIA NR model
+nvngx_dlssnr.dll
+# Per-user widget state
+optidrop.json
+.optiscaler-deploy.json
