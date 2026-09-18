@@ -2,6 +2,14 @@
 
 **Built by Floki.**
 
+> ### ▶ Quick start: download, extract, double-click `OptiDrop.vbs`. That's it.
+> 1. Download **`OptiDrop-v1.0.zip`** from [Releases](../../releases/latest).
+> 2. Right-click it → **Extract All**.
+> 3. Open the extracted folder and **double-click `OptiDrop.vbs`**.
+>
+> The OptiDrop bubble appears in the bottom-right corner of your screen. Drag a game folder onto it.
+> There's no installer, no setup and no admin prompt, and nothing else to download.
+
 A floating drop target for [OptiScaler](https://github.com/optiscaler/OptiScaler). Drag a game folder
 onto the bubble, pick your frame generation, and click **Install**. Drag the same folder on again and
 click **Remove** to undo it exactly.
@@ -22,13 +30,13 @@ click **Remove** to undo it exactly.
 
 ## Install
 
-1. Download **`OptiDrop-vX.Y.zip`** from [Releases](../../releases). It includes the OptiScaler
-   files, so there's nothing else to get.
-2. Extract it anywhere you like to keep it, for example `C:\Tools\OptiDrop`. Don't run it from
-   inside the zip.
-3. Double-click **`OptiDrop.vbs`**. A round icon appears in the bottom-right corner of your screen.
-4. Optional: to get a Desktop shortcut, right-click `OptiDrop.ps1` → *Run with PowerShell* once
-   with `-InstallShortcut`, or run:
+1. Download **`OptiDrop-vX.Y.zip`** from [Releases](../../releases/latest). It includes the
+   OptiScaler files, so there's nothing else to get.
+2. Extract it anywhere you want to keep it, for example `C:\Tools\OptiDrop`. Extract it first:
+   double-clicking inside the zip without extracting won't work.
+3. **Double-click `OptiDrop.vbs`.** That's the whole install. A round icon appears in the
+   bottom-right corner of your screen. Do the same any time you want it back after closing it.
+4. Optional: to get a Desktop shortcut with the OptiDrop icon, run this once:
    ```powershell
    powershell -ExecutionPolicy Bypass -File .\OptiDrop.ps1 -InstallShortcut
    ```

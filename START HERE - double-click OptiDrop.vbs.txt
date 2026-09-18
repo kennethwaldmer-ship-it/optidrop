@@ -1,0 +1,17 @@
+OptiDrop - built by Floki
+=========================
+
+To start: double-click  OptiDrop.vbs  in this folder.
+
+That's it. No installer, no setup, no admin prompt.
+
+A round OptiDrop bubble appears in the bottom-right corner of your screen.
+Drag a game folder onto it, pick your frame generation, and click Install.
+Drag the same folder on again and click Remove to undo it.
+
+In game:  Insert = OptiScaler menu   End = frame gen on/off
+          Page Up = FPS overlay      Page Down = cycle FPS overlay
+
+(Make sure you extracted the zip first. Running it from inside the zip won't work.)
+
+Full guide: README.md, or https://github.com/kennethwaldmer-ship-it/optidrop
