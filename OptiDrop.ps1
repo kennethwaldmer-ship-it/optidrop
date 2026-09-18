@@ -127,7 +127,7 @@ if (-not $created) { exit 0 }
 
 # ------------------------------------------------------------------------- helpers
 function Say([string]$text, [string]$icon = 'Information') {
-    [void][Windows.Forms.MessageBox]::Show($text, 'OptiScaler Drop', 'OK', $icon)
+    [void][Windows.Forms.MessageBox]::Show($text, 'OptiDrop', 'OK', $icon)
 }
 
 # Single-quote a value for the child's -Command string.
